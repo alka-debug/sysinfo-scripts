@@ -5,3 +5,6 @@ echo "Hostname: $(hostname)"
 echo "Uptime: $(uptime -p)"
 echo "Memory Usage: "
 free -h
+echo "Loggegin Users: $(who | wc -l)"
+echo "Kernel VErsion: $(uname -r)"
+
